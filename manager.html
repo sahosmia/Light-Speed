@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <!-- Fontawesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/spacing.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--***** header Start  ****-->
+    <header class="header">
+      <div class="container">
+        <nav>
+          <div class="logout">
+            <a href="#">Logout</a>
+          </div>
+          <div class="title">
+            <h4>Stephanie</h4>
+            <i class="fa-solid fa-lock"></i>
+          </div>
+
+          <div class="action">
+            <i class="fa-solid fa-expand"></i>
+            <i class="fas fa-search"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--***** header End  *****-->
+
+    <main class="dash">
+      <div class="container">
+        <!-- Section  1 start -->
+        <div class="sec-1 mb-10">
+          <div class="order-details">
+            <!-- Order Details header  -->
+            <div class="order-details-header">
+              <div class="top-line">
+                <h4>Table 7, Indoor</h4>
+                <button>Actions</button>
+              </div>
+
+              <div class="bottom-line">
+                <div class="btn-item">
+                  <i class="fa-solid fa-file-invoice"></i>
+                  <span>Default Tag</span>
+                </div>
+                <div class="btn-item disable">
+                  <i class="fa-regular fa-address-card"></i>
+                  <span>Customer Assign</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- order list  -->
+            <div class="direct-sale"></div>
+
+            <!-- checkout details  -->
+            <div class="checkout-details text-sm">
+              <div class="checkout-details-item total">
+                <span>Total</span>
+                <span>CA$ 15.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="calculator">
+            <input
+              type="text"
+              placeholder="Use keypad to apply quantity, table or payment"
+              class="calculator-display"
+            />
+            <div class="calculator-btn-section">
+              <div class="calculator-number-btns">
+                <button class="btn-c">C</button>
+                <button class="btn-number">.</button>
+                <button class="btn-number">
+                  <i class="fa-solid fa-delete-left"></i>
+                </button>
+                <button class="btn-number">7</button>
+                <button class="btn-number">8</button>
+                <button class="btn-number">9</button>
+                <button class="btn-number">4</button>
+                <button class="btn-number">5</button>
+                <button class="btn-number">6</button>
+                <button class="btn-number">1</button>
+                <button class="btn-number">2</button>
+                <button class="btn-number">3</button>
+                <button class="btn-number">00</button>
+                <button class="btn-number">0</button>
+                <button class="btn-number">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="calculator-action-btns">
+                <button class="btn-primary btn-action">Tab Name</button>
+                <button class="btn-primary btn-action">Tables</button>
+                <button class="btn-success btn-action">Cash</button>
+                <button class="btn-success btn-action">Ls Payment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Section  1 end -->
+
+        <!-- Section 2 start -->
+        <div class="sec-2 mb-10">
+          <!-- Extend the Main Section for Menu Grid -->
+          <div class="menu-categories flex flex-col gap-1 justify-between">
+            <button class="btn-main btn-danger">Brunch</button>
+            <button class="btn-main btn-maroon">Appetizers</button>
+            <button class="btn-main btn-maroon">Main Courses</button>
+            <button class="btn-main btn-maroon">Desserts</button>
+            <button class="btn-main btn-ass">Cold Beverages</button>
+            <button class="btn-main btn-ass">Hot Beverages</button>
+            <button class="btn-main btn-ass-deep">Wines</button>
+            <button class="btn-main btn-ass-deep">Cocktails</button>
+            <button class="btn-main btn-ass-deep">Combos</button>
+            <button class="btn-main btn-light-taupe">Msgs</button>
+          </div>
+        </div>
+        <!-- Section  2 end -->
+
+        <!-- Section  3 start -->
+        <div class="sec-3 mb-10">
+          <div class="title">
+            <h4>Hot Beverage</h4>
+          </div>
+          <div class="menu-items-grid">
+            <div class="menu-item">Espresso</div>
+            <div class="menu-item">Latte</div>
+            <div class="menu-item">Black Tea</div>
+            <div class="menu-item">Green Tea</div>
+            <div class="menu-item">Cappuccino</div>
+            <!-- Add more items as needed -->
+          </div>
+
+          <div class="bottom-btn-group bottom-btn">
+            <button class="btn btn-success btn-item-bottom">
+              Pay - CA$17.50
+            </button>
+          </div>
+        </div>
+        <!-- Section  3 end -->
+      </div>
+    </main>
+    <nav class="navbar">
+      <div class="container flex">
+        <!-- Navigation Items -->
+        <div class="navbar-menu flex">
+          <div class="navbar-item">
+            <a href="#" class="active">
+              <i class="fa-solid fa-cash-register"></i> <span>Register</span>
+            </a>
+          </div>
+
+          <div class="navbar-item">
+            <a href="#">
+              <i class="fa-solid fa-border-all"></i> <span>Table</span>
+            </a>
+          </div>
+
+          <div class="navbar-item">
+            <a href="#">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span>Orders</span>
+            </a>
+          </div>
+
+          <div class="navbar-item">
+            <a href="#">
+              <i class="fa-solid fa-users"></i>
+              <span>Customers</span>
+            </a>
+          </div>
+
+          <div class="navbar-item">
+            <a href="#"
+              ><i class="fa-solid fa-clipboard-list"></i>
+              <span>Receipts</span></a
+            >
+          </div>
+
+          <div class="navbar-item">
+            <a href="#">
+              <i class="fa-solid fa-cog"></i>
+              <span>Settings</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+          <span class="dropdown-toggle"
+            ><i class="fa-solid fa-ellipsis-vertical"></i
+          ></span>
+          <div class="dropdown-menu">
+            <ul>
+              <li><a href="#">New 1</a></li>
+              <li><a href="#">New 2</a></li>
+              <li><a href="#">New 3</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Modal Title</h2>
+        <p>This is the content inside the modal.</p>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

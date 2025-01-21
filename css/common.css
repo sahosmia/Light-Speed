@@ -1,0 +1,557 @@
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+/* Spacing */
+.m-0 {
+  margin: 0;
+}
+.mt-1 {
+  margin-top: 0.5rem;
+}
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+.p-0 {
+  padding: 0;
+}
+.pt-1 {
+  padding-top: 0.5rem;
+}
+.pb-1 {
+  padding-bottom: 0.5rem;
+}
+
+/* Flexbox */
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+/* Justify Content */
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+/* Align Items */
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-center {
+  align-items: center;
+}
+
+/* Text Alignment */
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+
+/* Display */
+.block {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+
+/* Width and Height */
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+
+/* Overflow */
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-scroll {
+  overflow: scroll;
+}
+
+/* Border Radius */
+.rounded {
+  border-radius: 0.5rem;
+}
+.rounded-full {
+  border-radius: 50%;
+}
+
+/* Shadows */
+.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cursor */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Font Size */
+.text-sm {
+  font-size: 0.875rem;
+}
+.text-md {
+  font-size: 1rem;
+}
+.text-lg {
+  font-size: 1.25rem;
+}
+
+/* Font Weight */
+.font-light {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-bold {
+  font-weight: 700;
+}
+
+/* Text Colors */
+.text-primary {
+  color: #1a73e8;
+}
+.text-secondary {
+  color: #6c757d;
+}
+.text-danger {
+  color: #dc3545;
+}
+
+/* Line Height */
+.line-tight {
+  line-height: 1;
+}
+.line-normal {
+  line-height: 1.5;
+}
+
+/* Background Colors */
+.bg-white {
+  background-color: #fff;
+}
+.bg-gray {
+  background-color: #f8f9fa;
+}
+.bg-primary {
+  background-color: #1a73e8;
+}
+.bg-secondary {
+  background-color: #6c757d;
+}
+.bg-danger {
+  background-color: #dc3545;
+}
+
+/* Text Colors */
+.text-white {
+  color: #fff;
+}
+.text-gray {
+  color: #6c757d;
+}
+.text-primary {
+  color: var(--primary-color);
+}
+.text-secondary {
+  color: #6c757d;
+}
+.text-danger {
+  color: #dc3545;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.text-lg {
+  font-size: 1.25rem;
+  line-height: 1.75;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.text-xxl {
+  font-size: 1.75rem;
+  line-height: 2.25;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+
+/* Base Button Styles */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Variants */
+.btn-main {
+  display: block;
+  width: 100%;
+  font-weight: 500;
+  display: inline-block;
+  padding: 1.7rem 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: #0f5cc3; /* Darker shade of primary color */
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+.btn-secondary:hover {
+  background-color: #545b62; /* Darker shade of secondary color */
+}
+
+.btn-card-1 {
+  background-color: var(--bg-card-1);
+  color: var(--primary-color);
+}
+
+.btn-card-1:hover {
+  background-color: var(--bg-card-2); /* Darker shade of secondary color */
+}
+.btn-c {
+  background-color: var(--bg-card-2);
+  color: var(--danger-color);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.calculator-btn-section .calculator-number-btns .btn-c {
+  background-color: var(--bg-card-2);
+  color: var(--danger-color);
+  font-weight: 700;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-number {
+  background-color: var(--bg-card-2);
+  color: var(--gray-light);
+}
+
+.btn-c:hover {
+  background-color: var(--bg-card-1);
+}
+
+.btn-c:hover {
+  background-color: var(--bg-card-2);
+}
+
+.btn-danger {
+  background-color: var(--danger-color);
+  color: var(--white);
+}
+
+.btn-danger:hover {
+  background-color: #b02a37; /* Darker shade of danger color */
+}
+.btn-maroon {
+  background-color: var(--maroon-color);
+  color: var(--white);
+}
+
+.btn-maroon:hover {
+  background-color: #801c26; /* Darker shade of danger color */
+}
+.btn-ass {
+  background-color: var(--ass-color);
+  color: var(--white);
+}
+
+.btn-ass:hover {
+  background-color: #8f9392; /* Darker shade of danger color */
+}
+.btn-ass-deep {
+  background-color: var(--ass-deep-color);
+  color: var(--white);
+}
+
+.btn-ass-deep:hover {
+  background-color: #505153; /* Darker shade of danger color */
+}
+
+.btn-success {
+  background-color: var(--success-color);
+  color: var(--gray-light);
+}
+
+.btn-light-taupe {
+  background-color: var(--light-taupe-color);
+  color: var(--gray-light);
+}
+
+/* Additional Button Styles */
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-small {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.btn-large {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Button Click Effect */
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* .dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+  */
+
+/* Unordered List (ul) */
+.ul-reset {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.ul-spacing {
+  margin-bottom: 1rem; /* Add spacing below the list */
+}
+
+/* List Items (li) */
+.li-spacing {
+  margin-bottom: 0.5rem; /* Add spacing between list items */
+}
+
+/* Anchor Tags (a) */
+a {
+  text-decoration: none;
+}
+.a-link {
+  text-decoration: none; /* Remove underline */
+  color: var(--primary-color); /* Use primary color */
+  font-weight: 500;
+  transition: color 0.3s ease; /* Add hover effect */
+}
+
+.a-link:hover {
+  color: var(--secondary-color); /* Change color on hover */
+}
+
+/* Headings (h1, h2, h3, etc.) */
+.heading {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem; /* Space below heading */
+  color: var(--text-primary);
+}
+
+.heading-large {
+  font-size: 2rem; /* Large heading */
+}
+
+.heading-medium {
+  font-size: 1.5rem; /* Medium heading */
+}
+
+.heading-small {
+  font-size: 1.25rem; /* Small heading */
+}
